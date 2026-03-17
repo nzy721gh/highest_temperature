@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3-Day Weather Dashboard</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 16px;
+      width: 200px;
+    }
+    .temp {
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
 
+<body>
+
+<h1>🌦️ London City Airport (3-Day Forecast)</h1>
+
+<div class="grid" id="grid"></div>
+
+<p id="updated"></p>
+
+<script>
+async function load() {
+  const res = await fetch("./result.json");
+  const data = await res.json();
+
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  data.highest.forEach((day, i) => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <h3>Day ${i + 1}</h3>
+      <div class="temp">🔥 ${day.value ?? "--"}°C</div>
+      <p>Source: ${day.provider ?? "N/A"}</p>
+
+      <hr>
+
+      <small>
+        WU: ${data.sources.wunderground[i] ?? "--"}°C<br>
+        MB: ${data.sources.meteoblue[i] ?? "--"}°C<br>
+        AW: ${data.sources.accuweather[i] ?? "--"}°C
+      </small>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  document.getElementById("updated").innerText =
+    "Updated: " + new Date(data.timestamp).toLocaleString();
+}
+
+load();
+setInterval(load, 60000);
+</script>
+
+</body>
+</html>
