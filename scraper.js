@@ -27,7 +27,7 @@ async function getMeteoblue() {
     temps.push($(el).text());
   });
 
-  return extractTemps(temps);
+  return extractTemps(temps).map(toCelsius);
 }
 
 // ACCUWEATHER
