@@ -114,4 +114,12 @@ async function main() {
   fs.writeFileSync("result.json", JSON.stringify(output, null, 2));
 }
 
+function toCelsius(temp) {
+  // If value looks like Fahrenheit (>45 is a safe assumption)
+  if (temp > 45) {
+    return Math.round((temp - 32) * 5 / 9);
+  }
+  return temp;
+}
+
 main();
