@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-04-05T02:49:48.466Z",
+  "timestamp": "2026-04-05T05:16:09.136Z",
   "sources": {
     "wunderground": [
       21,
-      51,
+      48,
       null
     ],
     "meteoblue": [],
     "accuweather": [
-      51,
+      46,
       56,
       59
     ]
@@ -17,7 +17,7 @@
     {
       "day": 1,
       "provider": "accuweather",
-      "value": 51
+      "value": 46
     },
     {
       "day": 2,
