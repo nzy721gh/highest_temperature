@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-22T02:53:04.096Z",
+  "timestamp": "2026-04-22T05:29:29.187Z",
   "sources": {
     "wunderground": [
-      92,
+      21,
       44,
       null
     ],
@@ -16,8 +16,8 @@
   "highest": [
     {
       "day": 1,
-      "provider": "wunderground",
-      "value": 92
+      "provider": "accuweather",
+      "value": 44
     },
     {
       "day": 2,
