@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-06T14:22:58.532Z",
+  "timestamp": "2026-05-06T16:44:25.616Z",
   "sources": {
     "wunderground": [
       92,
-      54,
+      56,
       null
     ],
     "meteoblue": [],
