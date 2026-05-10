@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-10T11:54:54.480Z",
+  "timestamp": "2026-05-10T13:26:16.548Z",
   "sources": {
     "wunderground": [
       21,
@@ -8,8 +8,8 @@
     ],
     "meteoblue": [],
     "accuweather": [
-      54,
-      60,
+      55,
+      55,
       56
     ]
   },
@@ -17,12 +17,12 @@
     {
       "day": 1,
       "provider": "accuweather",
-      "value": 54
+      "value": 55
     },
     {
       "day": 2,
       "provider": "accuweather",
-      "value": 60
+      "value": 55
     },
     {
       "day": 3,
