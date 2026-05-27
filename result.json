@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-05-27T00:10:14.180Z",
+  "timestamp": "2026-05-27T05:19:06.623Z",
   "sources": {
     "wunderground": [
       92,
-      78,
+      66,
       null
     ],
     "meteoblue": [],
     "accuweather": [
-      73,
+      61,
       79,
       86
     ]
