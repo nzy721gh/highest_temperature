@@ -1,13 +1,17 @@
 {
-  "timestamp": "2026-06-10T12:23:41.916Z",
+  "timestamp": "2026-06-10T16:36:21.066Z",
   "sources": {
     "wunderground": [
       92,
-      58,
+      57,
       null
     ],
     "meteoblue": [],
-    "accuweather": []
+    "accuweather": [
+      63,
+      63,
+      60
+    ]
   },
   "highest": [
     {
@@ -17,13 +21,13 @@
     },
     {
       "day": 2,
-      "provider": "wunderground",
-      "value": 58
+      "provider": "accuweather",
+      "value": 63
     },
     {
       "day": 3,
-      "provider": null,
-      "value": null
+      "provider": "accuweather",
+      "value": 60
     }
   ]
 }
