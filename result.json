@@ -1,33 +1,29 @@
 {
-  "timestamp": "2026-07-27T16:59:52.880Z",
+  "timestamp": "2026-07-27T18:42:04.038Z",
   "sources": {
     "wunderground": [
       2,
-      82,
+      80,
       null
     ],
     "meteoblue": [],
-    "accuweather": [
-      81,
-      81,
-      84
-    ]
+    "accuweather": []
   },
   "highest": [
     {
       "day": 1,
-      "provider": "accuweather",
-      "value": 81
+      "provider": "wunderground",
+      "value": 2
     },
     {
       "day": 2,
       "provider": "wunderground",
-      "value": 82
+      "value": 80
     },
     {
       "day": 3,
-      "provider": "accuweather",
-      "value": 84
+      "provider": null,
+      "value": null
     }
   ]
 }
