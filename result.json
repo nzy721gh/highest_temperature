@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-08T20:32:51.771Z",
+  "timestamp": "2026-08-08T21:33:08.740Z",
   "sources": {
     "wunderground": [
-      2,
+      92,
       75,
       null
     ],
@@ -13,7 +13,7 @@
     {
       "day": 1,
       "provider": "wunderground",
-      "value": 2
+      "value": 92
     },
     {
       "day": 2,
