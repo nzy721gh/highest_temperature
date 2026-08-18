@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-18T16:34:32.812Z",
+  "timestamp": "2026-08-18T17:29:18.895Z",
   "sources": {
     "wunderground": [
       2,
-      78,
+      77,
       null
     ],
     "meteoblue": [],
@@ -18,7 +18,7 @@
     {
       "day": 2,
       "provider": "wunderground",
-      "value": 78
+      "value": 77
     },
     {
       "day": 3,
