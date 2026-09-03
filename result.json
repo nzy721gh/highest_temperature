@@ -1,9 +1,10 @@
 {
-  "timestamp": "2026-09-03T20:42:44.542Z",
+  "timestamp": "2026-09-03T23:06:04.365Z",
   "sources": {
     "wunderground": [
-      71,
-      71
+      2,
+      69,
+      null
     ],
     "meteoblue": [],
     "accuweather": []
@@ -12,12 +13,12 @@
     {
       "day": 1,
       "provider": "wunderground",
-      "value": 71
+      "value": 2
     },
     {
       "day": 2,
       "provider": "wunderground",
-      "value": 71
+      "value": 69
     },
     {
       "day": 3,
